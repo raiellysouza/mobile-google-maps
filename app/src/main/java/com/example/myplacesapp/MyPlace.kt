@@ -1,8 +1,10 @@
-package.com.example.myplacesapp
+package com.example.myplacesapp
+
+import com.google.android.gms.maps.model.LatLng
 
 data class MyPlace (
-
+    val id: String,
     val name: String,
-    val lating:
-
+    val latLng: LatLng,
+    val description: String = ""
 )
